@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="input">Input</string>
+    <string name="constraintlayouttest">ConstraintLayoutTest</string>
+    <string name="_0_0">0.0</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="斜杠_除号">/</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="星号_乘号">*</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="加号">+</string>
+    <string name="句点_小数点">.</string>
+    <string name="_0">0</string>
+    <string name="等于号">=</string>
+    <string name="减号">-</string>
+    <string name="service_stations">Service Stations</string>
+    <string name="flights">Flights</string>
+    <string name="astronauts">Astronauts</string>
+    <string name="depart">DEPART</string>
+    <string name="one_way">One Way</string>
+    <string name="travel">Travel</string>
+    <string name="dca">DCA</string>
+    <string name="mars">MARS</string>
+    <string name="android_app">ANDROID APP</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="cancel">Cancel</string>
 </resources>

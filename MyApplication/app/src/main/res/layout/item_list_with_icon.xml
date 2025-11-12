@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 每行布局：左侧图标 + 右侧文字（水平排列） -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center_vertical"
+    android:paddingHorizontal="16dp">
+
+
+<ImageView
+android:id="@+id/item_icon"
+android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:src="@drawable/ic_launcher_foreground"
+    android:contentDescription="@string/app_name"/>
+
+    <!-- 文字（右侧，与图标保持间距） -->
+<TextView
+android:id="@+id/item_text"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginStart="16dp"
+    android:textSize="16sp"
+    android:textColor="#000000"/>
+
+    </LinearLayout>

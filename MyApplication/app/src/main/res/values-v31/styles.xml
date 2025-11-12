@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/styles.xml -->
+<resources>
+    <!-- 应用主题（确保已引用） -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- 关联自定义 ActionMode 样式 -->
+        <item name="actionModeStyle">@style/CustomActionMode</item>
+    </style>
+
+    <!-- 自定义 ActionMode 核心样式 -->
+    <style name="CustomActionMode" parent="Widget.AppCompat.ActionMode">
+        <!-- 1. 设置返回图标为系统自带打勾 -->
+        <item name="homeAsUpIndicator">@android:drawable/checkbox_on_background</item>
+        <!-- 可选：系统打勾图标变体（根据需求选择） -->
+        <!-- <item name="homeAsUpIndicator">@android:drawable/ic_menu_check</item> -->
+        <!-- <item name="homeAsUpIndicator">@android:drawable/ic_input_check</item> -->
+
+        <!-- 2. 设置背景颜色为深蓝色（#1E3A8A 是经典深蓝色，可自定义） -->
+        <item name="background">@color/dark_blue</item>
+
+        <!-- 可选：修改标题文字颜色（与深蓝色背景适配） -->
+        <item name="titleTextStyle">@style/ActionModeTitle</item>
+    </style>
+
+    <!-- 标题文字样式（白色文字适配深蓝色背景） -->
+    <style name="ActionModeTitle" parent="TextAppearance.AppCompat.Widget.ActionMode.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
